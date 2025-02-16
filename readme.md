@@ -9,5 +9,11 @@ pip install -r requirements.txt
 运行
 python main.py
 
-
+目录结构
+.
+├── config.py        # 配置参数（原CONFIG）
+├── etf_grid.py      # 策略实现类（包含数据获取方法）
+├── main.py          # 主程序入口
+├── requirements.txt
+└── .gitignore
 
